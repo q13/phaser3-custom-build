@@ -123,7 +123,6 @@ var ImageFile = new Class({
 
         // File.createObjectURL(this.data, this.xhrLoader.response, 'image/png');
         this.data.src = this.url;
-
     },
 
     /**

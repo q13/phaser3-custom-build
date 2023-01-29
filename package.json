@@ -16,7 +16,7 @@
     "buildfulllog": "webpack --config webpack.config-full.js --json --profile > webpack.build-full-log.json",
     "buildcore": "webpack --config webpack.config-core.js --display-modules",
     "buildcorelog": "webpack --config webpack.config-core.js --json --profile > webpack.build-core-log.json",
-    "build:wechat": "webpack --config webpack.config-wechat.js --display-modules",
+    "build:wechat": "webpack --config webpack.config-wechat.js",
     "build:wechatlog": "webpack --config webpack.config-wechat.js --json --profile > webpack.build-wechat-log.json"
   },
   "repository": {

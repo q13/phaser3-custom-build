@@ -8,7 +8,7 @@ require('polyfills');
 
 var CONST = require('const');
 var Extend = require('utils/object/Extend');
-var merge = require('lodash/merge');
+// var merge = require('lodash/merge');
 
 /**
  * @namespace Phaser
@@ -33,11 +33,7 @@ var Phaser = {
     GameObjects: require('gameobjects'),
     Geom: require('geom'),
     Input: require('input'),
-    Loader: merge({}, require('loader'), {
-      FileTypes: {
-        ImageFile: require('./wechat-adapter/loader/filetypes/ImageFile'),
-      }
-    }),
+    Loader: require('loader'),
     Math: require('math'),
     Physics: require('physics'),
     Plugins: require('plugins'),
