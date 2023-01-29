@@ -1,3 +1,4 @@
+# Creating wechat minigame adapter
 # Creating Custom Phaser 3 Builds
 
 By default, Phaser will include pretty much everything, especially if you just require or import the main entry point. This will add 980KB of minified JavaScript to your bundle which is a considerable amount, especially if you aren't even using a large chunk of it. However, you can choose what you actually need in your bundle to a very granular degree. It just takes a little configuration to do it.
